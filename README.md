@@ -2,7 +2,7 @@
 
 A poker helper app for iPhone, native in SwiftUI. Scaffolded from `statemono-app`'s setup: XcodeGen, a SwiftUI app target and a local Swift package for everything that isn't UI.
 
-The app is called PokerAid wherever people see its name: the home screen, the UI and docs. In code it stays `Pokeraid`: the target, scheme, `PokeraidKit` and the bundle ID `com.pokeraid`.
+The app is called PokerAid wherever people see its name: the home screen, the UI and docs. In code it stays `Pokeraid`: the target, scheme, `PokeraidKit` and the bundle ID `app.pokeraid`.
 
 ## Status
 
@@ -34,7 +34,7 @@ cd Packages/PokeraidKit && swift test
 
 ## Layout
 
-- `project.yml`: XcodeGen spec. Target `Pokeraid` (bundle ID `com.pokeraid`, iPhone only).
+- `project.yml`: XcodeGen spec. Target `Pokeraid` (bundle ID `app.pokeraid`, iPhone only).
 - `App/`: the SwiftUI app.
   - `Home/`: the first screen, the tab bar.
   - `Odds/`: the Odds tab.

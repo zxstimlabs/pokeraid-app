@@ -8,7 +8,7 @@ options:
 settings:
   base:
     # Single source of truth for IDs.
-    APP_BUNDLE_ID: com.pokeraid
+    APP_BUNDLE_ID: app.pokeraid
     # Pyhash LLC, the paid team. The free personal team can't use TestFlight or App Groups.
     DEVELOPMENT_TEAM: 8G6DC3A5B8
     SWIFT_VERSION: "6.0"
