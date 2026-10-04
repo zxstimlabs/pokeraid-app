@@ -1,0 +1,26 @@
+{
+  "fill" : {
+    "automatic-gradient" : "display-p3:0.05000,0.30000,0.18000,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "image-name" : "pokeraid-spade.svg",
+          "name" : "pokeraid-spade"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : "shared"
+  }
+}
