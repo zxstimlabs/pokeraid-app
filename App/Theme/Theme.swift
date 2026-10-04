@@ -10,6 +10,16 @@ enum Theme {
     static let text = Color(light: .black, dark: .white)
     /// Buttons and links, applied as the app's tint.
     static let accent = Color(light: Color(hex: 0x0D7A4A), dark: Color(hex: 0x30C27B))
+    /// Losing or giving up, like the Fold advice in Odds.
+    static let danger = Color(light: Color(hex: 0xD70015), dark: Color(hex: 0xFF6961))
+
+    /// A playing card's face and its edge. Dark mode dims the face rather than leaving a white card on black.
+    static let cardFace = Color(light: Color(hex: 0xFFFFFF), dark: Color(hex: 0x2C2C2E))
+    static let cardEdge = Color(light: Color(hex: 0xD1D1D6), dark: Color(hex: 0x48484A))
+    /// Hearts and diamonds.
+    static let cardRed = Color(light: Color(hex: 0xD70015), dark: Color(hex: 0xFF6961))
+    /// Spades and clubs. Light on the dark card face in dark mode.
+    static let cardBlack = Color(light: Color(hex: 0x1C1C1E), dark: Color(hex: 0xF2F2F7))
 }
 
 extension Color {
